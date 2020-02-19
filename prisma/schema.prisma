@@ -1,0 +1,13 @@
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:postgres@localhost:6433/postgres?schema=test"
+}
+
+generator g {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id   Int    @id @default(autoincrement())
+  name String
+}

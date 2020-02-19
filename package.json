@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@prisma/client": "^2.0.0-alpha.801",
+    "prisma2": "^2.0.0-preview022"
+  }
+}
